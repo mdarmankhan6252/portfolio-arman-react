@@ -2,6 +2,7 @@
 const Services = () => {
     return (
         <div className="bg-blue-50 py-24">
+            
             <div className="max-w-6xl mx-auto">
                 <h5 className="text-blue-500 text-xl font-light">SERVICES</h5>
                 <h1 className="text-xl sm:text-3xl font-semibold playWrite py-4">What I Can Do For You</h1>

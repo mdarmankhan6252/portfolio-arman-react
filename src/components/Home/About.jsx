@@ -4,6 +4,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 const About = () => {
     return (
         <div className="max-w-6xl mx-auto flex items-center justify-between gap-x-2 flex-col sm:flex-row mt-10">
+            
             <div className='basis-[42%]'>
                 <img src={img_1} alt="" />
             </div>

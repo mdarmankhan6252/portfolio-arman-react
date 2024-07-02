@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="bg-blue-950 text-white mt-12 pt-24">
             <div className="max-w-6xl mx-auto flex justify-between *:basis-[32%] *:space-y-6">
                 <div>
-                    <h4 className="text-2xl font-semibold playFair">Arman</h4>
+                    <Link to='/' className="text-2xl font-semibold playFair">Arman</Link>
                     <p>We know from first hand the
                         true meaning of the word support.Best Web Developer in Bangladesh</p>
                     <Link to='/contact' className="flex items-center space-x-2 hover:text-blue-300 font-semibold w-32">
@@ -26,10 +26,10 @@ const Footer = () => {
                 <div>
                     <h2 className="text-2xl font-semibold">Find Me</h2>
                     <ul className="*:block space-y-4">
-                        <Link to='/' className="hover:underline">Facebook</Link>
-                        <Link to='/' className="hover:underline">Instagram </Link>
-                        <Link to='/' className="hover:underline">Linkedin</Link>
-                        <Link to='/' className="hover:underline">GitHub</Link>
+                        <Link to='https://www.facebook.com/profile.php?id=100021868964533' className="hover:underline">Facebook</Link>
+                        <Link to='https://www.instagram.com/mdarmankhan6252/' className="hover:underline">Instagram </Link>
+                        <Link to='https://www.linkedin.com/in/mdarmankhan6252/' className="hover:underline">Linkedin</Link>
+                        <Link to='https://github.com/mdarmankhan6252' className="hover:underline">GitHub</Link>
                     </ul>
                 </div>
             </div>
