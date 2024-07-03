@@ -5,6 +5,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 import { MdOutlineDownload } from 'react-icons/md';
 import { useState } from 'react';
 import { PiCertificateLight } from 'react-icons/pi';
+import Skill from './Skill';
 
 
 
@@ -117,6 +118,9 @@ const About = () => {
                 </div>
 
             </div>
+
+            {/* skills section */}
+            <Skill/>
         </div>
     );
 };
