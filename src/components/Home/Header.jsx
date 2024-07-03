@@ -12,7 +12,7 @@ const Header = () => {
                 <h2 className="text-xl font-light playWrite">A Creative Web Developer From Bangladesh</h2>
                 <p className="text-[#7e7d85]">Hi,I am a passionate React.js developer with 2 years of experience building dynamic and responsive web applications. I have a strong foundation in JavaScript</p>
                 <div className="flex items-center gap-3 ">
-                    <a href="../../assets/resume.pdf" download='../../assets/resume.pdf'  className="text-xl font-medium py-2.5 px-4 border-2 border-white bg-blue-500 text-white rounded-lg hover:border-blue-500 hover:text-blue-500 hover:bg-transparent duration-500 hover:shadow-[0px_0px_4px_0.5px] hover:shadow-blue-500 flex items-center space-x-2" >
+                    <a href="./resume.pdf" download='./resume.pdf'  className="text-xl font-medium py-2.5 px-4 border-2 border-white bg-blue-500 text-white rounded-lg hover:border-blue-500 hover:text-blue-500 hover:bg-transparent duration-500 hover:shadow-[0px_0px_4px_0.5px] hover:shadow-blue-500 flex items-center space-x-2" >
                     <span>Download CV</span>
                     <MdOutlineDownload className="text-2xl -mb-2"/>
                     </a>
