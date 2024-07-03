@@ -1,6 +1,7 @@
 
 import { Helmet } from 'react-helmet';
 import './Services.css'
+import Portfolio from '../Home/Portfolio';
 
 const Services = () => {
     return (
@@ -46,7 +47,11 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
+            {/* poetfolio */}
+            <div className='-mt-16'>
+            <Portfolio/>
+            </div>
         </div>
     );
 };

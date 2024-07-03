@@ -7,8 +7,7 @@ const Footer = () => {
             <div className="max-w-6xl mx-auto flex justify-between *:basis-[32%] *:space-y-6">
                 <div>
                     <Link to='/' className="text-2xl font-semibold playFair">Arman</Link>
-                    <p>We know from first hand the
-                        true meaning of the word support.Best Web Developer in Bangladesh</p>
+                    <p className="text-justify">I am a passionate React.js front-end web developer with over a year of experience in creating responsive and dynamic web applications.</p>
                     <Link to='/contact' className="flex items-center space-x-2 hover:text-blue-300 font-semibold w-32">
                         <span>Get Support</span>
                         <BiArrowToRight className="text-2xl -mb-1" />

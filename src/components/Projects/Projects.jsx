@@ -9,6 +9,7 @@ import p7 from '../../assets/project_img/p7.png'
 import p8 from '../../assets/project_img/p8.png'
 import p9 from '../../assets/project_img/p9.png'
 import { Link } from 'react-router-dom'
+import Client from '../Home/Client'
 const Projects = () => {
     return (
         <div>
@@ -83,6 +84,11 @@ const Projects = () => {
                     <p className='text-[#927f7f]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolorum! Minima iste dolores quisquam eos expedita?</p>
                     </div>
                 </Link>
+            </div>
+
+            {/* client says */}
+            <div>
+            <Client/>
             </div>
 
         </div>
