@@ -1,7 +1,7 @@
 
 const Experience = () => {
     return (
-        <div className="grid grid-cols-2 lg:grid-cols-4 mt-16 gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-2 lg:grid-cols-4 mt-16 gap-6 max-w-6xl mx-auto px-2">
             <div className="text-center space-y-3 shadow-[0px_0px_1px_0px] p-6">
                 <h1 className=" text-5xl text-blue-950 font-semibold">24+</h1>
                 <p className="font-semibold text-lg">Successful Projects</p>

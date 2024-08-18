@@ -1,7 +1,7 @@
 
 const Client = () => {
     return (
-        <div className="mt-16">
+        <div className="mt-16 px-2">
             <div className="max-w-6xl mx-auto space-y-5">
             <h1 className="text-4xl text-blue-950 font-semibold playWrite">What my client’s say</h1> 
             <p className="text-xl font-light">That off his nut the bee's knees on your bike mate tinkety tonk old.</p>

@@ -2,6 +2,7 @@
 import { Helmet } from 'react-helmet';
 import './Services.css'
 import Portfolio from '../Home/Portfolio';
+import BgAni from '../Home/BgAni';
 
 const Services = () => {
     return (
@@ -9,6 +10,7 @@ const Services = () => {
             <Helmet>
                 <title>Services - Arman</title>
             </Helmet>
+            <BgAni/>
             <div className='services'>
                 <h1 className='playWrite text-white font-semibold text-3xl sm:text-4xl lg:text-5xl'>My Services</h1>
             </div>

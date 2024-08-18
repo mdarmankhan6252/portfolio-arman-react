@@ -13,3 +13,7 @@ a.active{
 .playWrite{
     font-family: "Playwrite NG Modern", cursive;
 }
+.faq_img{
+    display: flex ;
+
+}

@@ -10,12 +10,14 @@ import p8 from '../../assets/project_img/p8.png'
 import p9 from '../../assets/project_img/p9.png'
 import { Link } from 'react-router-dom'
 import Client from '../Home/Client'
+import BgAni from '../Home/BgAni'
 const Projects = () => {
     return (
         <div>
             <div className='project'>
                 <h1 className='playWrite text-white font-semibold text-3xl sm:text-4xl lg:text-5xl'>My Projects</h1>
             </div>
+            <BgAni/>
 
             {/* my all projects */}
             <h1 className='text-2xl sm:text-3xl lg:text-4xl py-20 text-center font-semibold playWrite'>My Projects</h1>

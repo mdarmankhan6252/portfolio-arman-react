@@ -6,6 +6,7 @@ import { MdOutlineDownload } from 'react-icons/md';
 import { useState } from 'react';
 import { PiCertificateLight } from 'react-icons/pi';
 import Skill from './Skill';
+import BgAni from '../Home/BgAni';
 
 
 
@@ -18,6 +19,7 @@ const About = () => {
             <Helmet>
                 <title>About - Arman</title>
             </Helmet>
+            <BgAni/>
 
             {/* about banner */}
 

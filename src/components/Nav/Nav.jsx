@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { MdClose } from "react-icons/md";
 import { Link, NavLink } from "react-router-dom";
@@ -10,8 +10,15 @@ const Nav = () => {
         setMenu(!menu)
     }
 
+    const [sticky, setSticky] = useState(false);
+    useEffect(() =>{
+        window.addEventListener('scroll', () =>{
+            window.scrollY > 50 ?  setSticky(true) : setSticky(false)
+        })
+    },[])
+    // shadow-blue-200
     return (
-        <nav className="sticky top-0 left-0 right-0 shadow shadow-blue-200 z-10 bg-white">
+        <nav className={`sticky top-0 left-0 right-0   z-20 bg-white px-2 ${sticky ? 'shadow-blue-200 shadow duration-500' : ''}`}>
             <div className="flex items-center max-w-6xl mx-auto justify-between py-4 relative">
                 <Link to='/'>
                 <h1 className="text-4xl text-blue-500">Arman</h1>

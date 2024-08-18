@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet";
 import './Contact.css'
 import contact from '../../assets/portfolio_img/contact.jpeg'
 import React from "react";
+import BgAni from "../Home/BgAni";
 const Contact = () => {
     const [result, setResult] = React.useState("");
 
@@ -32,6 +33,7 @@ const Contact = () => {
             <Helmet>
                 <title>Contact - Arman</title>
             </Helmet>
+            <BgAni/>
 
             <div className='contact'>
                 <h1 className='playWrite text-white font-semibold text-3xl sm:text-4xl lg:text-5xl'>Contact With Me</h1>

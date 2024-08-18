@@ -12,12 +12,17 @@ import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import Services from './components/Services/Services';
 import Projects from './components/Projects/Projects';
+import ScrollToTop from './components/ScrollToTop';
+
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root/>,
+    element:(<>
+    <ScrollToTop />
+    <Root/>
+    </>),
     errorElement:<ErrorPage/>,
     children:[
       {
