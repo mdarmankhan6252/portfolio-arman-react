@@ -18,7 +18,7 @@ const Nav = () => {
     },[])
     // shadow-blue-200
     return (
-        <nav className={`sticky top-0 left-0 right-0   z-20 bg-white px-2 ${sticky ? 'shadow-blue-200 shadow duration-500' : ''}`}>
+        <nav className={`sticky top-0 left-0 right-0 z-20 bg-white px-2 ${sticky ? 'shadow-blue-200 shadow duration-500' : ''}`}>
             <div className="flex items-center max-w-6xl mx-auto justify-between py-4 relative">
                 <Link to='/'>
                 <h1 className="text-4xl text-blue-500">Arman</h1>
@@ -36,7 +36,7 @@ const Nav = () => {
                     }
                 
                 </div>
-                <ul className={`font-semibold *:block absolute bg-white right-6 top-11 pl-6 pr-10 *:py-2 py-4 shadow-[0px_0px_6px_0px] shadow-blue-300 ${menu ? 'block' : 'hidden'} sm:hidden`}>
+                <ul className={`font-semibold *:block absolute bg-white  top-[72px] pl-6 pr-16 duration-500 *:py-2 py-4 shadow-[0px_0px_6px_0px] shadow-blue-300 ${menu ? ' -right-2' : '-right-40'} sm:hidden`}>
                     <NavLink to='/'>Home</NavLink>
                     <NavLink to='/about'>About</NavLink>
                     <NavLink to='/service'>Services</NavLink>

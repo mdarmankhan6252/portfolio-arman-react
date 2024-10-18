@@ -8,49 +8,27 @@ import {
 import Root from './Route/Root';
 import ErrorPage from './ErrorPage/ErrorPage';
 import Home from './components/Home/Home';
-import Contact from './components/Contact/Contact';
-import About from './components/About/About';
-import Services from './components/Services/Services';
-import Projects from './components/Projects/Projects';
 import ScrollToTop from './components/ScrollToTop';
-
-
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:(<>
-    <ScrollToTop />
-    <Root/>
+    element: (<>
+      <ScrollToTop />
+      <Root />
     </>),
-    errorElement:<ErrorPage/>,
-    children:[
+    errorElement: <ErrorPage />,
+    children: [
       {
-        path:'/',
-        element:<Home/>
+        path: '/',
+        element: <Home />
       },
-      {
-        path:'/about',
-        element:<About/>
-      },
-      {
-        path:'/contact',
-        element:<Contact/>
-      },
-      {
-        path:'/service',
-        element:<Services/>
-      },
-      {
-        path:'/project',
-        element:<Projects/>
-      }
     ]
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-        <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )

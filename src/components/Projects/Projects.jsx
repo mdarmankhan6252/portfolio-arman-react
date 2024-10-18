@@ -9,13 +9,12 @@ import p7 from '../../assets/project_img/p7.png'
 import p8 from '../../assets/project_img/p8.png'
 import p9 from '../../assets/project_img/p9.png'
 import { Link } from 'react-router-dom'
-import Client from '../Home/Client'
 import BgAni from '../Home/BgAni'
 const Projects = () => {
     return (
         <div>
             <div className='project'>
-                <h1 className='playWrite text-white font-semibold text-3xl sm:text-4xl lg:text-5xl'>My Projects</h1>
+                <h1 className='playWrite text-white font-semibold text-2xl sm:text-3xl lg:text-5xl'>My Projects</h1>
             </div>
             <BgAni/>
 
@@ -86,11 +85,6 @@ const Projects = () => {
                     <p className='text-[#927f7f]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolorum! Minima iste dolores quisquam eos expedita?</p>
                     </div>
                 </Link>
-            </div>
-
-            {/* client says */}
-            <div>
-            <Client/>
             </div>
 
         </div>

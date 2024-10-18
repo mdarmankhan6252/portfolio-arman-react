@@ -1,7 +1,6 @@
 
 import { Helmet } from 'react-helmet';
 import './Services.css'
-import Portfolio from '../Home/Portfolio';
 import BgAni from '../Home/BgAni';
 
 const Services = () => {
@@ -12,12 +11,12 @@ const Services = () => {
             </Helmet>
             <BgAni/>
             <div className='services'>
-                <h1 className='playWrite text-white font-semibold text-3xl sm:text-4xl lg:text-5xl'>My Services</h1>
+                <h1 className='playWrite text-white font-semibold text-2xl sm:text-3xl lg:text-5xl'>My Services</h1>
             </div>
             {/* services */}
             <div className="bg-blue-50 py-24">
             
-            <div className="max-w-6xl mx-auto">
+            <div className="max-w-6xl mx-auto px-2">
                 <h5 className="text-blue-500 text-xl font-light">SERVICES</h5>
                 <h1 className="text-xl sm:text-3xl font-semibold playWrite py-4">What I Can Do For You</h1>
                 
